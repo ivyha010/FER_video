@@ -19,7 +19,7 @@ This repository demonstrates **facial expression recognition (FER)** on video us
 
 
 ## Project Structure
-.
+```
 ├── python_seanhowfun_main.py        # Python demo using Hugging Face model
 ├── python_fer_main.py               # Python demo using FER package
 ├── export_to_onnx.py                # Script to export SeanHowFun model to ONNX
@@ -31,7 +31,7 @@ This repository demonstrates **facial expression recognition (FER)** on video us
 │   ├── fer2013_vit.onnx.data        # Model weights
 │   ├── haarcascade_frontalface_default.xml
 
-
+```
 
 ## Requirements
 - Python 3.9+
@@ -91,6 +91,7 @@ export LD_LIBRARY_PATH=../onnxruntime-linux-x64-1.18.0/lib:$LD_LIBRARY_PATH
 ## Example Output
 
 At the end of processing, the program prints overall emotion percentages across the video:
+```
 Output:
 0   Angry        9.22196%
 1   Disgust      2.15318%
@@ -99,4 +100,4 @@ Output:
 4   Neutral      9.56951%
 5   Sad          9.99935%
 6   Surprise     30.7059%
-
+```
